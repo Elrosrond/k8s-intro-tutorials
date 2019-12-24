@@ -204,3 +204,7 @@ That should hopefully resolve the kubeadm init error.
  [linux-minikube]: https://github.com/kubernetes/minikube#linux
  [linux-vbox]: https://www.virtualbox.org/wiki/Linux_Downloads
  [linux-completion]: https://kubernetes.io/docs/tasks/tools/install-kubectl/#enabling-shell-autocompletion
+ 
+ 
+ 
+ kubectl create clusterrolebinding kubernetes-dashboard --clusterrole=cluster-admin --serviceaccount=kube-system:kubernetes-dashboard
