@@ -30,7 +30,6 @@ spec:
     spec:
       accessModes: [ "ReadWriteOnce" ]
       storageClassName: managed-premium
-        resources:
-          requests:
-            storage: 5Gi
-
+      resources:
+        requests:
+          storage: 1Gi
