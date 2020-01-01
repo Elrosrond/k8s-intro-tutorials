@@ -9,7 +9,7 @@ spec:
     storage: 1Gi
   accessModes:
     - ReadWriteMany
-  storageClassName: html
+  storageClassName: default
   persistentVolumeReclaimPolicy: Delete
   hostPath:
     type: DirectoryOrCreate
@@ -24,7 +24,7 @@ metadata:
 spec:
   accessModes:
     - ReadWriteMany
-  storageClassName: html
+  storageClassName: default
   resources:
     requests:
       storage: 1Gi
