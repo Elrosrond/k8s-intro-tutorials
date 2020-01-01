@@ -9,7 +9,7 @@ spec:
     storage: 2Gi
   accessModes:
     - ReadWriteMany
-  storageClassName: managed-premium
+  storageClassName: default
   persistentVolumeReclaimPolicy: Delete
   hostPath:
     type: DirectoryOrCreate
