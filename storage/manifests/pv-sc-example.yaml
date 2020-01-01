@@ -9,7 +9,7 @@ spec:
     storage: 2Gi
   accessModes:
     - ReadWriteMany
-  storageClassName: mypvsc
+  storageClassName: managed-premium
   persistentVolumeReclaimPolicy: Delete
   hostPath:
     type: DirectoryOrCreate
