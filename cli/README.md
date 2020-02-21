@@ -563,6 +563,11 @@ To access the dashboard use the `kubectl proxy` command and access the `kubernet
 http://127.0.0.1:8001/api/v1/namespaces/kube-system/services/kubernetes-dashboard/proxy/
 ```
 
+Fix for RBAC 
+```
+kubectl create clusterrolebinding kubernetes-dashboard --clusterrole=cluster-admin --serviceaccount=kube-system:kubernetes-dashboard
+```
+
 Leaving the proxy up and going may not be desirable for quick dev-work. Minikube itself has a command that will
 open the dashboard up in a new browser window through an exposed service on the Minikube VM.
 
