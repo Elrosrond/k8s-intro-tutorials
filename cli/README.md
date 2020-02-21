@@ -643,6 +643,10 @@ kubectl config delete-context minidev
 * [kubectl Cheat Sheet](https://kubernetes.io/docs/reference/kubectl/cheatsheet/)
 * [kubectl Reference](https://kubernetes.io/docs/reference/generated/kubectl/kubectl-commands)
 * [Accessing Clusters](https://kubernetes.io/docs/tasks/access-application-cluster/access-cluster/)
+* [Kubernetes: Up and Running Book](https://azure.microsoft.com/en-us/resources/kubernetes-up-and-running/)
+
 
 
 [Back to Index](#index)
+
+
